@@ -1,3 +1,8 @@
+# This R script computes the pearson correlation between sulfate and nitrate pollutant
+# concentration values in monitors which has a number of measurements higher than the 
+# thresshold (t) value
+# Author: Javier Montalvo
+# usrbinjavo@gmail.com
 corr <- function(directory, t = 0) {
         correlations <- c()
         for (i in 1:332) {
