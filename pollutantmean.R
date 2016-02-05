@@ -1,3 +1,6 @@
+# This R script calculates the mean for each of both pollutants along a set of data files.
+# Javier Montalvo
+# usrbinjavo@gmail.com
 pollutantmean <- function(directory, pollutant, id = 1:332) {
         valuesOfvalues <- c()
         for (i in id) {
