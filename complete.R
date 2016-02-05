@@ -1,3 +1,6 @@
+# This R script calculates the total number of complete cases for every data file.
+# Author: Javier Montalvo
+# usrbinjavo@gmail.com
 complete <- function(directory, id = 1:332) {
         idx <- c()
         c <- c()
